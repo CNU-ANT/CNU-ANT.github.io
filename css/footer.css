@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: -webkit-calc(800px - (50px * 2));
+    max-width:         calc(800px - (50px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    @extend .clearfix;
+}
+
+footer {
+  background-color: #424242;
+  border-top: thin solid #424242;
+  color: #ccc;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: .5rem;
+  position: fixed;
+    left: 0px;
+    bottom: 0px;
+  width: 100%;
+  line-height: 1.5;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+#footerfonts {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footerfonts:hover {
+  color: #B509AC;
+}
